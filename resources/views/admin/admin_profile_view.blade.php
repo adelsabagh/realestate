@@ -83,7 +83,7 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="photo" class="form-label">Photo</label>
-                                    <input class="form-control" type="file" name="photo" id="photo">
+                                    <input class="form-control" type="file" name="photo" id="image">
                                 </div>
                                 <div class="mb-3">
                                     <label for="photo" class="form-label">    </label>
@@ -110,7 +110,7 @@
 
     <script>
         $(document).ready(function(){
-            $('#photo').change(function (e){
+            $('#image').change(function (e){
                 var reader = new FileReader();
                 reader.onload = function (e){
                     $('#showImage').attr('src', e.target.result);
