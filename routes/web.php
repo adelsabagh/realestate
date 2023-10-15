@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Backend\PropertyTypeController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
@@ -59,3 +60,12 @@ Route::get('/agent/dashboard', [AgentController::class, 'AgentDashboard'])->name
 }); // End Group Agent Middleware
 
 Route::get('/admin/login', [AdminController::class, 'AdminLogin'])->name('admin.login');
+
+// Property Type All Route
+Route::middleware(['auth', 'role:admin'])->group(function() {
+
+    Route::controller(PropertyTypeController::class)->group(function (){
+        Route::get('/all/type','AllType')->name('all.type');
+    });
+
+}); // End Group Admin Middleware
