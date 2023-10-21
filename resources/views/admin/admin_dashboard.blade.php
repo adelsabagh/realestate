@@ -26,6 +26,10 @@
     <link rel="stylesheet" href="{{ asset('backend/assets/vendors/flatpickr/flatpickr.min.css') }}">
     <!-- End plugin css for this page -->
 
+    <!-- datatables -->
+    <link rel="stylesheet" href="{{ asset('backend/assets/vendors/datatables.net-bs5/dataTables.bootstrap5.css') }}">
+    <!-- End datatables -->
+
     <!-- inject:css -->
     <link rel="stylesheet" href="{{ asset('backend/assets/fonts/feather-font/css/iconfont.css') }}">
     <link rel="stylesheet" href="{{ asset('backend/assets/vendors/flag-icon-css/css/flag-icon.min.css') }}">
@@ -102,6 +106,11 @@
     }
     @endif
 </script>
+<!-- Start datatables -->
+<script src="{{ asset('backend/assets/vendors/datatables.net/jquery.dataTables.js') }}"></script>
+<script src="{{ asset('backend/assets/vendors/datatables.net-bs5/dataTables.bootstrap5.js') }}"></script>
+<script src="{{ asset('backend/assets/js/data-table.js') }}"></script>
+<!-- End datatables -->
 
 </body>
 </html>
