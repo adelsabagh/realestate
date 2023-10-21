@@ -112,6 +112,10 @@
 <script src="{{ asset('backend/assets/js/code/code.js') }}"></script>
 <!-- End sweatalert -->
 
+<!-- Start validate -->
+<script src="{{ asset('backend/assets/js/code/validate.min.js') }}"></script>
+<!-- End validate -->
+
 <!-- Start datatables -->
 <script src="{{ asset('backend/assets/vendors/datatables.net/jquery.dataTables.js') }}"></script>
 <script src="{{ asset('backend/assets/vendors/datatables.net-bs5/dataTables.bootstrap5.js') }}"></script>
