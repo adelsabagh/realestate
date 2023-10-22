@@ -18,6 +18,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <!-- End fonts -->
 
+    <!-- Multiple select -->
+    <link rel="stylesheet" href="{{ asset('backend/assets/vendors/select2/select2.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('backend/assets/vendors/jquery-tags-input/jquery.tagsinput.min.css') }}">
+    <!-- End Multiple select -->
+
+    <!-- datatables -->
+    <link rel="stylesheet" href="{{ asset('backend/assets/vendors/datatables.net-bs5/dataTables.bootstrap5.css') }}">
+    <!-- End datatables -->
+
     <!-- core:css -->
     <link rel="stylesheet" href="{{ asset('backend/assets/vendors/core/core.css') }}">
     <!-- endinject -->
@@ -26,9 +35,6 @@
     <link rel="stylesheet" href="{{ asset('backend/assets/vendors/flatpickr/flatpickr.min.css') }}">
     <!-- End plugin css for this page -->
 
-    <!-- datatables -->
-    <link rel="stylesheet" href="{{ asset('backend/assets/vendors/datatables.net-bs5/dataTables.bootstrap5.css') }}">
-    <!-- End datatables -->
 
     <!-- inject:css -->
     <link rel="stylesheet" href="{{ asset('backend/assets/fonts/feather-font/css/iconfont.css') }}">
@@ -121,6 +127,17 @@
 <script src="{{ asset('backend/assets/vendors/datatables.net-bs5/dataTables.bootstrap5.js') }}"></script>
 <script src="{{ asset('backend/assets/js/data-table.js') }}"></script>
 <!-- End datatables -->
+
+<!-- Start Multiple select -->
+<script src="{{ asset('backend/assets/vendors/inputmask/jquery.inputmask.min.js') }}"></script>
+<script src="{{ asset('backend/assets/vendors/select2/select2.min.js') }}"></script>
+<script src="{{ asset('backend/assets/vendors/typeahead.js/typeahead.bundle.min.js') }}"></script>
+<script src="{{ asset('backend/assets/vendors/jquery-tags-input/jquery.tagsinput.min.js') }}"></script>
+<script src="{{ asset('backend/assets/js/inputmask.js') }}"></script>
+<script src="{{ asset('backend/assets/js/select2.js') }}"></script>
+<script src="{{ asset('backend/assets/js/typeahead.js') }}"></script>
+<script src="{{ asset('backend/assets/js/tags-input.js') }}"></script>
+<!-- End Multiple select -->
 
 </body>
 </html>
