@@ -67,7 +67,7 @@
 
                                         <div class="mb-3">
                                             <label for="login" class="form-label">Email/Name/Phone</label>
-                                            <input type="text" class="form-control" id="login" name="login" placeholder="Email/Name/Phone">
+                                            <input type="text" class="form-control" id="login" name="login" placeholder="Email/Name/Phone" autofocus>
                                         </div>
                                         <div class="mb-3">
                                             <label for="password" class="form-label">Password</label>
